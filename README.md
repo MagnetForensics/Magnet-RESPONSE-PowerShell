@@ -1,5 +1,5 @@
 <div align="center">
- <img style="padding:0;vertical-align:bottom;" height="265" width="265" src="Magnet.png"/>
+ <img style="padding:0;vertical-align:bottom;" height="180" width="180" src="Magnet.png"/>
  <p>
   <h2>
    Magnet RESPONSE PowerShell
