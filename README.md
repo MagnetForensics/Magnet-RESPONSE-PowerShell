@@ -63,8 +63,8 @@ Within the script we need to have at least one set of collection arguments defin
 ### Execution
 
 Once your environment and collection variables are defined, go ahead and run the script on your endpoints. 
-Every host that executes the script will download RESPONSE from the web server, run the specified collection profile, and then transfer the output to the file server.  
-All data defined in the collection profile will be collected and organized by hostname in the central collection location. The returned files can be examined manually, using open source tools, or products like Magnet AXIOM Cyber.
+Every host that executes the script will download RESPONSE from the web server, run the specified collection profile, and  save the output to the file server.  
+The returned files can be examined manually, using open source tools, or products like Magnet AXIOM Cyber.
 
 
 
