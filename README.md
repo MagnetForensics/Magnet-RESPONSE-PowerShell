@@ -18,8 +18,9 @@
   </h5>
 
 - :computer: Capture specified triage artifacts using profiles with Magnet RESPONSE,
-- :ram: Capture a memory image with DumpIt for Windows,
+- :ram: Capture a memory image with DumpIt for Windows or Magnet RAM Capture,
 - :floppy_disk: Save all artifacts, output, and audit logs to network drive.
+- :window: Supports x86, x64 and ARM64 versions of Windows
 <h5>
    Prerequisites:
 </h5>
