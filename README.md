@@ -1,14 +1,11 @@
 <div align="center">
  <img style="padding:0;vertical-align:bottom;" height="180" width="180" src="Magnet.png"/>
  <p>
+PowerShell scripts to run Magnet RESPONSE 
+forensic collection tool in large enterprises.
   <h2>
    Magnet RESPONSE PowerShell
   </h2>
-
-PowerShell scripts to run Magnet RESPONSE 
-forensic collection tool in large enterprises.
-
-
 <p>
 <p>
  </div>
