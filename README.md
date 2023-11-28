@@ -1,16 +1,23 @@
 <div align="center">
- <img style="padding:0;vertical-align:bottom;" height="180" width="180" src="Magnet.png"/>
+ <img style="padding:0;vertical-align:bottom;" height="180" width="180" src="/images/Magnet.png"/>
  <p>
-PowerShell scripts to run Magnet RESPONSE 
+
+
+PowerShell scripts to run **Magnet RESPONSE** 
 forensic collection tool in large enterprises.
-  <h2>
-   Magnet RESPONSE PowerShell
-  </h2>
 <p>
+<div align="left">
+
+----------------------------
+
+
+#### Magnet RESPONSE PowerShell
+v1.7
+
 <p>
  </div>
 <div align="center">
-  <img style="padding:0;vertical-align:bottom;" height="340" width="526" src="screenshot.png"/>
+  <img style="padding:0;vertical-align:bottom;" height="340" width="526" src="/images/screenshot.png"/>
   <div align="left">
   <h5>
    Functions:
@@ -36,9 +43,6 @@ forensic collection tool in large enterprises.
 [Magnet RESPONSE](https://www.magnetforensics.com/resources/magnet-response/) is a free tool from Magnet Forensics that lets investigators and non-technical users easily collect and preserve critical data relevant to incident response investigations from local endpoints.  Pre-set collection profiles let you target a comprehensive set of files and data relevant to incident response investigations, including RAM.  
 
 ***What happens when you need to collect from dozens endpoints? That’s where the CLI (Command Line Interface) functionality of Magnet RESPONSE comes into play.***
-
-## Magnet RESPONSE PowerShell
-v1.7
 
 There are two areas of the script for you to customize. 
 >- The ***Variable Setup*** contains the case identification, file server and web server locations. 
@@ -70,11 +74,11 @@ All data defined in the collection profile will be collected and organized by ho
 ----------------------------
 
 ### Defender_RESPONSE.ps1
-doug.metz@magnetforensics.com
+
 v1.1
 
 <div align="center">
-  <img style="padding:0;vertical-align:bottom;" height="200" width="500" src="Defender_RESPONSE.png"/>
+  <img style="padding:0;vertical-align:bottom;" height="200" width="500" src="/images/Defender_RESPONSE.png"/>
   <div align="left">
   <h5>
   
