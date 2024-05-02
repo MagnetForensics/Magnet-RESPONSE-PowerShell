@@ -22,8 +22,12 @@ Retrieving the Data:
 
     * 	Navigate to output folder using command — cd c:\Temp\RESPONSE
     * 	List files using “dir” command
-    * 	Copy the zip filename <filename.zip>
-    *   After the output filename is copied, collect the output by downloading it from the remote machine to your local system using the “Download” command. Download <filename.zip> &
+    * 	Copy the zip filename <
+filename.zip
+>
+    *   After the output filename is copied, collect the output by downloading it from the remote machine to your local system using the “Download” command. Download <
+filename.zip
+> &
 
 #>
 Write-Host ""
@@ -39,7 +43,9 @@ Hostname: $name
 Operating System: $OS
 Architecture: $arch
 "
-./MagnetRESPONSE.exe /accepteula /unattended /output:C:\temp\RESPONSE /caseref:DefenderRESPONSE /captureram
+./MagnetRESPONSE.exe /accepteula /unattended /output:C:\temp\RESPONSE /caseref:DefenderRESPONSE /capturevolatile /capturesystemfiles
+# To include RAM capture, comment out (#) the above line and un-comment the line below
+# ./MagnetRESPONSE.exe /accepteula /unattended /output:C:\temp\RESPONSE /caseref:DefenderRESPONSE /capturevolatile /capturesystemfiles /captureram
 Write-Host  "[Collecting Arifacts]"
 Wait-Process -name "MagnetRESPONSE"
 $null = $stopwatch.Elapsed
