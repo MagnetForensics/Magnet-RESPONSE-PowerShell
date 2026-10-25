@@ -42,7 +42,7 @@ v1.7
 
 [Magnet RESPONSE](https://www.magnetforensics.com/resources/magnet-response/) is a free tool from Magnet Forensics that lets investigators and non-technical users easily collect and preserve critical data relevant to incident response investigations from local endpoints.  Pre-set collection profiles let you target a comprehensive set of files and data relevant to incident response investigations, including RAM.  
 
-***What happens when you need to collect from dozens endpoints? That’s where the CLI (Command Line Interface) functionality of Magnet RESPONSE comes into play.***
+***What happens when you need to collect from dozens of endpoints? That’s where the CLI (Command Line Interface) functionality of Magnet RESPONSE comes into play.***
 
 There are two areas of the script for you to customize. 
 >- The ***Variable Setup*** contains the case identification, file server and web server locations. 
@@ -94,7 +94,7 @@ v1.1
 >2. `put MagnetRESPONSE.exe` // copies the exe to the target system
 >3. `run Defender_RESPONSE.ps1` // where the magic happens
 
-**RETREIVING THE COLLECTION:**
+**RETRIEVING THE COLLECTION:**
 
 >Once the script has finished running, the zipped output will be saved at the location `C:\Temp\RESPONSE` on the remote machine.
 >
